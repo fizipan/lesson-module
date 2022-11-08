@@ -12,7 +12,7 @@ di dalam pembelajaran ini kita akan belajar bagaimana cara membuat CRUD (Create,
 
 ## Peringatan Penting 📣
 
-Untuk Pembelajaran yang maksimal, disarankan untuk tidak langsung `copy paste` kode program yang ada di dalam module ini. Karena dengan begitu, kita tidak akan mengerti apa yang sedang kita lakukan. Jadi, disarankan untuk mengetik ulang kode program yang ada di dalam video tutorial.
+Untuk Pembelajaran yang maksimal, disarankan untuk tidak langsung `copy paste` kode program yang ada di dalam module ini. Karena dengan begitu, kita tidak akan mengerti apa yang sedang kita lakukan. Jadi, disarankan untuk mengetik ulang kode program yang ada di dalam module tutorial.
 
 ## Credit
 
