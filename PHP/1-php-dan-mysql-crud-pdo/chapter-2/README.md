@@ -170,8 +170,6 @@ Setelah itu kita akan membuat dokument HTML pada file `index.php` yang sudah kit
           include "pages/edit.php";
         } elseif ($_GET['page'] == 'delete') {
           include "pages/delete.php";
-        } else {
-          include "pages/notfound.php";
         }
         ?>
       </div>
