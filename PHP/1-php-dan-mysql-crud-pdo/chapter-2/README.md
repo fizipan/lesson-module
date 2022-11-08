@@ -25,7 +25,7 @@
   - [Next Chapter](#next-chapter)
   - [Previous Chapter](#previous-chapter)
 
-## 🎮 Development PHP pada Local Computer (Connection & Views)
+## 🎨 Development PHP pada Local Computer (Connection & Views)
 
 Setelah kita mempersiapkan database untuk CRUD, selanjutnya kita akan membuat project PHP pada local computer kita.
 
