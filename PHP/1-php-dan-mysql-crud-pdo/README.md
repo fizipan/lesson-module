@@ -2,7 +2,7 @@
 
 ![ Logo PHP dan MySQl ](./images/logo-php-mysql.png)
 
-di dalam pembelajaran ini kita akan belajar bagaimana cara membuat CRUD (Create, Read, Update, Delete) menggunakan PHP dan MySQL. Kita akan membuat sebuah aplikasi sederhana yang berfungsi untuk mengelola data mahasiswa.
+di dalam pembelajaran ini kita akan belajar bagaimana cara membuat CRUD (Create, Read, Update, Delete) menggunakan PHP dan MySQL. Kita akan membuat sebuah aplikasi sederhana yang berfungsi untuk mengelola data siswa.
 
 ## Chapter List
 
