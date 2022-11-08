@@ -12,7 +12,7 @@
     - [1. Create](#1-create)
     - [2. Read](#2-read)
     - [3. Update](#3-update)
-  - [Delete Data](#delete-data)
+    - [4. Delete Data](#4-delete-data)
   - [Selesai](#selesai)
 
 ## 📌 Development PHP pada Local Computer (CRUD)
@@ -268,7 +268,7 @@ jika berhasil maka akan diarahkan ke halaman `index.php` dan data akan terupdate
 
 ![data updated](./images/data-updated.png)
 
-## Delete Data
+### 4. Delete Data
 
 untuk menghapus data kita akan membuat sebuah file baru dengan nama `delete.php` dan kita tambahkan script berikut:
 
