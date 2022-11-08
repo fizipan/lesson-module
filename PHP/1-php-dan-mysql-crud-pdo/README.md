@@ -10,6 +10,10 @@ di dalam pembelajaran ini kita akan belajar bagaimana cara membuat CRUD (Create,
 2. [PHP PDO dan MySQL (CRUD) - Chapter 2](./chapter-2/README.md)
 3. [PHP PDO dan MySQL (CRUD) - Chapter 3](./chapter-3/README.md)
 
+## Peringatan Penting 📣
+
+Untuk Pembelajaran yang maksiimal, disarankan untuk tidak langsung copy paste kode program yang ada di dalam module ini. Karena dengan begitu, kita tidak akan mengerti apa yang sedang kita lakukan. Jadi, disarankan untuk mengetik ulang kode program yang ada di dalam video tutorial.
+
 ## Credit
 
 Pembelajaran ini dibuat dengan 🧠 dan 💓 by [Hafizh Maulana Yusliansyah](https://github.com/hafizhmaulanay)
