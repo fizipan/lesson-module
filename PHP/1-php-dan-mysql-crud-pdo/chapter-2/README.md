@@ -18,6 +18,10 @@
       - [5. Membuat File `pages/create.php`](#5-membuat-file-pagescreatephp)
       - [6. Membuat File `pages/edit.php`](#6-membuat-file-pageseditphp)
       - [7. Membuat File `pages/delete.php`](#7-membuat-file-pagesdeletephp)
+  - [Berikut Hasil Sementara Halaman Web CRUD Sederhana](#berikut-hasil-sementara-halaman-web-crud-sederhana)
+    - [Hasil Dari Halaman `index.php`](#hasil-dari-halaman-indexphp)
+    - [Hasil Dari Halaman `create.php`](#hasil-dari-halaman-createphp)
+    - [Hasil Dari Halaman `edit.php`](#hasil-dari-halaman-editphp)
   - [Next Chapter](#next-chapter)
   - [Previous Chapter](#previous-chapter)
 
@@ -540,6 +544,20 @@ File `pages/delete.php` digunakan untuk membuat halaman delete pada web kita. Un
 [![ delete-pages ](./images/delete-pages.png)](./images/delete-pages.png)
 
 > **Catatan :** File `pages/delete.php` berisi kode php yang akan kita gunakan untuk menghapus data pada database. Kita tidak perlu membuat halaman delete pada file `pages/delete.php` karena kita akan menghapus data dengan link yang ada pada halaman `index.php`.
+
+## Berikut Hasil Sementara Halaman Web CRUD Sederhana
+
+### Hasil Dari Halaman `index.php`
+
+[![ result-home-page ](./images/result-home-page.png)](./images/result-home-page.png)
+
+### Hasil Dari Halaman `create.php`
+
+[![ create-php ](./images/result-create-page.png)](./images/result-create-page.png)
+
+### Hasil Dari Halaman `edit.php`
+
+[![ edit-php ](./images/result-edit-page.png)](./images/result-edit-page.png)
 
 ## Next Chapter
 
