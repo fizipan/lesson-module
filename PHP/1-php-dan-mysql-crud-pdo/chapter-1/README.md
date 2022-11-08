@@ -74,10 +74,10 @@ Selanjutnya masukan nama database yang kita ingin buat, yaitu **db_student** dan
 
 ![ create-database ](./images/phpmyadmin-create-database.jpg)
 
-Setelah itu kita akan masuk ke dalam database yang kita buat tadi, yaitu **db_student**. Klik menu SQL dan masukan query dibawah ini :
+Setelah itu kita akan masuk ke dalam database yang kita buat tadi, yaitu **db_student**. Klik menu SQL dan masukan query dibawah ini untuk membuat tabel **student**.
 
 ```sql
-CREATE TABLE `db_student` (
+CREATE TABLE `students` (
   `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `name` varchar(255) NOT NULL,
   `nis` varchar(255) NOT NULL,
