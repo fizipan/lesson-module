@@ -8,7 +8,7 @@
 
 - [Belajar PHP PDO dan MySQL (CRUD) - Chapter 2](#belajar-php-pdo-dan-mysql-crud---chapter-2)
   - [Daftar isi:](#daftar-isi)
-  - [🎮 Development PHP pada Local Computer](#-development-php-pada-local-computer)
+  - [🎮 Development PHP pada Local Computer (Connection & Views)](#-development-php-pada-local-computer-connection--views)
     - [Membuat Project PHP](#membuat-project-php)
     - [Membuat File PHP](#membuat-file-php)
       - [1. Membuat File `config/connection.php`](#1-membuat-file-configconnectionphp)
@@ -18,8 +18,9 @@
       - [5. Membuat File `pages/create.php`](#5-membuat-file-pagescreatephp)
       - [6. Membuat File `pages/edit.php`](#6-membuat-file-pageseditphp)
       - [7. Membuat File `pages/delete.php`](#7-membuat-file-pagesdeletephp)
+  - [Next Chapter](#next-chapter)
 
-## 🎮 Development PHP pada Local Computer
+## 🎮 Development PHP pada Local Computer (Connection & Views)
 
 Setelah kita mempersiapkan database untuk CRUD, selanjutnya kita akan membuat project PHP pada local computer kita.
 
@@ -275,8 +276,8 @@ Setelah itu kita akan membuat halaman home pada file `pages/home.php` yang sudah
     <tr>
       <th scope="col">No</th>
       <th scope="col">Name</th>
-      <th scope="col">Nim</th>
-      <th scope="col">Cass</th>
+      <th scope="col">Nis</th>
+      <th scope="col">Class</th>
       <th scope="col">Major</th>
       <th scope="col">Address</th>
       <th scope="col">Action</th>
@@ -364,13 +365,13 @@ Setelah itu kita akan membuat halaman create pada file `pages/create.php` yang s
     />
   </div>
   <div class="mb-3">
-    <label for="nim" class="form-label">Nim</label>
+    <label for="nis" class="form-label">Nis</label>
     <input
       type="number"
       class="form-control"
-      id="nim"
-      name="nim"
-      placeholder="Enter nim"
+      id="nis"
+      name="nis"
+      placeholder="Enter nis"
       autocomplete="off"
       required
     />
@@ -457,20 +458,20 @@ Setelah itu kita akan membuat halaman edit pada file `pages/edit.php` yang sudah
       autocomplete="off"
       required
       autofocus
-      value="<?= $student['name'] ?>"
+      value=""
     />
   </div>
   <div class="mb-3">
-    <label for="nim" class="form-label">Nim</label>
+    <label for="nis" class="form-label">Nis</label>
     <input
       type="number"
       class="form-control"
-      id="nim"
-      name="nim"
-      placeholder="Enter nim"
+      id="nis"
+      name="nis"
+      placeholder="Enter nis"
       autocomplete="off"
       required
-      value="<?= $student['nim'] ?>"
+      value=""
     />
   </div>
   <div class="mb-3">
@@ -538,3 +539,9 @@ File `pages/delete.php` digunakan untuk membuat halaman delete pada web kita. Un
 [![ delete-pages ](./images/delete-pages.png)](./images/delete-pages.png)
 
 > **Catatan :** File `pages/delete.php` berisi kode php yang akan kita gunakan untuk menghapus data pada database. Kita tidak perlu membuat halaman delete pada file `pages/delete.php` karena kita akan menghapus data dengan link yang ada pada halaman `index.php`.
+
+## Next Chapter
+
+Sekarang kita sudah membuat halaman-halaman yang ada pada web kita. Selanjutnya Kita akan memodifikasi file `pages/home.php`, `pages/create.php`, `pages/edit.php`, dan `pages/delete.php` untuk menghubungkan file tersebut dengan database dan membuat fungsi CRUD pada web kita. [Klik disini untuk melanjutkan ke chapter selanjutnya](../chapter-3/README.md).
+
+[![Back to top](https://img.shields.io/badge/Back%20to%20top-⬆-blue)](#crud-php-mysql-bootstrap-5)

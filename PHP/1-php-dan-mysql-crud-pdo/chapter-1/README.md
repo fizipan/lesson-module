@@ -77,12 +77,13 @@ Selanjutnya masukan nama database yang kita ingin buat, yaitu **db_student** dan
 Setelah itu kita akan masuk ke dalam database yang kita buat tadi, yaitu **db_student**. Klik menu SQL dan masukan query dibawah ini :
 
 ```sql
-CREATE TABLE `students` (
-  `id` int(11) NOT NULL,
+CREATE TABLE `db_student` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `name` varchar(255) NOT NULL,
-  `email` varchar(255) NOT NULL,
-  `phone` varchar(255) NOT NULL,
-  `address` varchar(255) NOT NULL
+  `nis` varchar(255) NOT NULL,
+  `class` varchar(255) NOT NULL,
+  `major` varchar(255) NOT NULL,
+  `address` varchar(255),
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
 
@@ -90,6 +91,6 @@ Setelah itu klik tombol go untuk menjalankan query yang kita buat tadi.
 
 ## Next Chapter
 
-[Chapter 2 - PHP PDO dan MySQL (CRUD)](./chapter-2/README.md)
+Sekarang kita sudah menginstall tools yang dibutuhkan dan juga sudah membuat database untuk CRUD. Selanjutnya kita akan membuat view untuk CRUD menggunakan Bootstrap 5. [Klik disini untuk melanjutkan ke chapter selanjutnya](../chapter-2/README.md).
 
-[Chapter 3 - PHP PDO dan MySQL (CRUD)](./chapter-3/README.md)
+[![Back to top](https://img.shields.io/badge/Back%20to%20top-⬆-blue)](#crud-php-mysql-bootstrap-5)
