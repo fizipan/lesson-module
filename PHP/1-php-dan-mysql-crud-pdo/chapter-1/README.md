@@ -93,4 +93,4 @@ Setelah itu klik tombol go untuk menjalankan query yang kita buat tadi.
 
 Sekarang kita sudah menginstall tools yang dibutuhkan dan juga sudah membuat database untuk CRUD. Selanjutnya kita akan membuat view untuk CRUD menggunakan Bootstrap 5. [Klik disini untuk melanjutkan ke chapter selanjutnya](../chapter-2/README.md).
 
-[![Back to top](https://img.shields.io/badge/Back%20to%20top-⬆-blue)](#crud-php-mysql-bootstrap-5)
+[![Back to top](https://img.shields.io/badge/Back%20to%20top-⬆-blue)](#belajar-php-pdo-dan-mysql-crud---chapter-1)

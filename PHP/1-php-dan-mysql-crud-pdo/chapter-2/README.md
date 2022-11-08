@@ -19,6 +19,7 @@
       - [6. Membuat File `pages/edit.php`](#6-membuat-file-pageseditphp)
       - [7. Membuat File `pages/delete.php`](#7-membuat-file-pagesdeletephp)
   - [Next Chapter](#next-chapter)
+  - [Previous Chapter](#previous-chapter)
 
 ## 🎮 Development PHP pada Local Computer (Connection & Views)
 
@@ -544,4 +545,8 @@ File `pages/delete.php` digunakan untuk membuat halaman delete pada web kita. Un
 
 Sekarang kita sudah membuat halaman-halaman yang ada pada web kita. Selanjutnya Kita akan memodifikasi file `pages/home.php`, `pages/create.php`, `pages/edit.php`, dan `pages/delete.php` untuk menghubungkan file tersebut dengan database dan membuat fungsi CRUD pada web kita. [Klik disini untuk melanjutkan ke chapter selanjutnya](../chapter-3/README.md).
 
-[![Back to top](https://img.shields.io/badge/Back%20to%20top-⬆-blue)](#crud-php-mysql-bootstrap-5)
+## Previous Chapter
+
+[Chapter 1 - Belajar PHP PDO dan MySQL (CRUD)](../chapter-1/README.md)
+
+[![Back to top](https://img.shields.io/badge/Back%20to%20top-⬆-blue)](#belajar-php-pdo-dan-mysql-crud---chapter-2)
