@@ -270,7 +270,7 @@ jika berhasil maka akan diarahkan ke halaman `index.php` dan data akan terupdate
 
 ### 4. Delete Data
 
-untuk menghapus data kita akan membuat sebuah file baru dengan nama `delete.php` dan kita tambahkan script berikut:
+Untuk menghapus data kita akan tambahkan script untuk menghapus data dari database berdasarkan id yang kita dapatkan dari url parameter.
 
 ```php
 <?php
@@ -298,3 +298,7 @@ Mari kita coba untuk menghapus data jika berhasil maka akan diarahkan ke halaman
 ## Selesai
 
 Sekian tutorial CRUD sederhana dengan PHP dan MySQL. Semoga bermanfaat. Terima kasih. 🙏
+
+Jangan lupa untuk follow dan star 🌟 repository ini ya. 😁
+
+Jika ada pertanyaan silahkan tanyakan di grup yang telah dibuat.
