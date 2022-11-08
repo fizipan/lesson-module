@@ -79,6 +79,23 @@ Cek di database, data sudah masuk ke dalam database.
 
 Pada bagian ini kita akan membuat fungsi untuk menampilkan data dari database. Untuk membuat fungsi ini kita akan membuat sebuah tabel untuk menampilkan data dari database.
 
+Sebelumnya kita harus mengkoneksi ke database terlebih dahulu. dengan memanggil file `connection.php` yang sudah kita buat sebelumnya. ke dalam file `index.php`.
+
+`index.php`
+
+```php
+<?php
+
+require_once 'config/connection.php';
+
+?>
+
+......
+// script ini di tulis di atas HTML <!DOCTYPE html>
+```
+
+Kemudian kita akan membuat sebuah query untuk menampilkan data dari database.
+
 `pages/home.php`
 
 ```php
