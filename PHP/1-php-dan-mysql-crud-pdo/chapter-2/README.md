@@ -19,9 +19,9 @@
       - [6. Membuat File `pages/edit.php`](#6-membuat-file-pageseditphp)
       - [7. Membuat File `pages/delete.php`](#7-membuat-file-pagesdeletephp)
   - [Berikut Hasil Sementara Halaman Web CRUD Sederhana](#berikut-hasil-sementara-halaman-web-crud-sederhana)
-    - [Hasil Dari Halaman `index.php`](#hasil-dari-halaman-indexphp)
-    - [Hasil Dari Halaman `create.php`](#hasil-dari-halaman-createphp)
-    - [Hasil Dari Halaman `edit.php`](#hasil-dari-halaman-editphp)
+    - [Hasil Dari Halaman `pages/home.php`](#hasil-dari-halaman-pageshomephp)
+    - [Hasil Dari Halaman `pages/create.php`](#hasil-dari-halaman-pagescreatephp)
+    - [Hasil Dari Halaman `pages/edit.php`](#hasil-dari-halaman-pageseditphp)
   - [Next Chapter](#next-chapter)
   - [Previous Chapter](#previous-chapter)
 
@@ -547,15 +547,15 @@ File `pages/delete.php` digunakan untuk membuat halaman delete pada web kita. Un
 
 ## Berikut Hasil Sementara Halaman Web CRUD Sederhana
 
-### Hasil Dari Halaman `index.php`
+### Hasil Dari Halaman `pages/home.php`
 
 [![ result-home-page ](./images/result-home-page.png)](./images/result-home-page.png)
 
-### Hasil Dari Halaman `create.php`
+### Hasil Dari Halaman `pages/create.php`
 
 [![ create-php ](./images/result-create-page.png)](./images/result-create-page.png)
 
-### Hasil Dari Halaman `edit.php`
+### Hasil Dari Halaman `pages/edit.php`
 
 [![ edit-php ](./images/result-edit-page.png)](./images/result-edit-page.png)
 
