@@ -83,7 +83,7 @@ CREATE TABLE `students` (
   `nis` varchar(255) NOT NULL,
   `class` varchar(255) NOT NULL,
   `major` varchar(255) NOT NULL,
-  `address` varchar(255),
+  `address` varchar(255)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
 
